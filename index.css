@@ -1,0 +1,226 @@
+.homepage{
+    background-image: url(IN-en-20240108-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.homepage::before{
+    /* height: inherit; */
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 1;
+}
+header{
+    margin: 0 10em;
+    padding: 1em .5em;
+    z-index: 2;
+    position: relative;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    FONT-FAMILY:"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons{
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lang{
+    filter: invert(100);
+}
+.logo img{
+    height: 50px;
+}
+.signin{
+    height: 30px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 80px;
+    font-size: 15px;
+    font-weight: 600;
+}
+select{
+    /* display: none; */
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    /* border:0.5px solid gray; */
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    width: 86px;
+}
+.select{
+    border:0.5px solid gray;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    width: 102px;
+}
+.toptext p{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+li, .middletext p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.bottomtext p{
+    font-size: 20px;
+}
+.hometext{
+    position: relative;
+    width: 68%;
+    margin: 15% 15%;
+    z-index: 2;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.email input{
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: transparent;
+    outline: none;
+    border: 0.5px solid gray;
+    height: 50px;
+    width: 350px;
+    font-size: 16px;
+}
+.getstart button{
+    height: 62px;
+    width: 200px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.features{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    border-top: 8px solid #2d2d2d;
+    /* border-bottom: 8px solid #2d2d2d; */
+
+}
+.feature{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0px 11vw;
+}
+.tv{
+    /* height: 30vw; */
+    width: 100%;
+}
+.featuretext .toptext p,.featuretext .middletext p{
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.featuretext{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.featureimg{
+    /* margin: 0; */
+    width: 50%;
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+}
+#feature2{
+    flex-direction: row-reverse;
+}
+.que{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+.que img{
+    /* align-self:flex-end ; */
+    /* inve:filter(100%) */
+    color: white;
+    filter: invert(100%);
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    margin-block-end: 0px;
+}
+li{
+    list-style-type: none;
+    margin: 8px 0px;
+    padding: 24px;
+    text-align: left;
+    height: 36px;
+    background-color: #2d2d2d;
+}
+.allques{
+    padding: 0px 11vw;
+    border-top: 8px solid #2d2d2d;
+}
+.allques .bottommain{
+    margin: 40px 0px;
+}
+footer{
+    border-top: 8px solid #2d2d2d;
+    /* padding: 30px; */
+    padding: 5vh 11vw;
+}
+.phone p ,.end{
+    text-align: left;
+    color: rgb(255, 255, 255 , 70%);
+}
+.phone span{
+    text-decoration: underline;
+}
+span{
+    background-color: black;
+    text-align: left;
+    text-decoration: underline;
+    color: rgb(255, 255, 255 , 70%);
+}
+.spans{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,40px);
+}
